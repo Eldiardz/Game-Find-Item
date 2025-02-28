@@ -1,0 +1,74 @@
+.parent{
+    display: flex;
+    width: 100%;
+    height: 97vh;
+    background-color: brown;
+    background-size: 100% 100%;
+    background-image: url(https://ic.pics.livejournal.com/zamok_garibaldi/71204772/18806/18806_original.jpg);
+}
+.infoblock{
+    background-color: orange;
+    width: 13%;
+    height: 45%;
+    flex-direction: column;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text1{
+    margin-left: 1rem;
+}
+.item1{
+    background-size: 100% 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2017/04/09/16/55/luck-2216212_960_720.png);
+    position:absolute;
+    left: 35%;
+    top: 56%;
+    height: 6%;
+    width: 3%;
+}
+.item2{
+    height: 3rem;
+    width: 3rem;
+    background-size: 100% 100%;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/6738/6738894.png);
+    position:absolute;
+    left: 69.5%;
+    top: 54%;
+    
+}
+.item3{
+    height: 12rem;
+    width: 8rem;
+    background-size: 100% 100%;
+    background-image: url(https://avatanplus.com/files/resources/original/5842ca2aac74e158c4e5b6d2.png);
+    position:absolute;
+    left: 15%;
+    top: 40%;
+    transform: rotate(-30deg);
+}
+.item4{
+    background-size: 100% 100%;
+    background-image: url(https://avatanplus.com/files/resources/original/57faad7840d8c157ab359dca.png);
+    position:absolute;
+    left: 82.5%;
+    top: 20%;
+
+    height: 3rem;
+    width: 3rem;
+}
+.list{
+    line-height: 1.8;
+    margin-top: -1rem;
+}
+.text2{
+    font-weight: bold;
+    margin-left: 1rem;
+    font-size: 35px;
+}
+.score{
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-top: -1rem;
+    font-size: 35px;
+    color: red;
+}
