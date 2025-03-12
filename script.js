@@ -11,7 +11,9 @@ document.querySelector(".item1").onclick = function(){
     document.querySelector(".score").innerHTML = score
     document.querySelector(".i1").style.textDecoration = "line-through"
     if (score == 4){
-    alert('Ты победил!');
+        alert('Ты победил!');
+        document.querySelector(".parent").style.display = "none"
+        document.querySelector(".winbox").style.display = "flex"
     }
 }
 document.querySelector(".item2").onclick = function(){
@@ -22,7 +24,9 @@ document.querySelector(".item2").onclick = function(){
     document.querySelector(".i2").style.textDecoration = "line-through"
 
     if (score == 4){
-    alert('Ты победил!');
+        alert('Ты победил!');
+        document.querySelector(".parent").style.display = "none"
+        document.querySelector(".winbox").style.display = "flex"
     }   
 }
 document.querySelector(".item3").onclick = function(){
@@ -33,7 +37,9 @@ document.querySelector(".item3").onclick = function(){
     document.querySelector(".i3").style.textDecoration = "line-through"
 
     if (score == 4){
-    alert('Ты победил!');
+        alert('Ты победил!');
+        document.querySelector(".parent").style.display = "none"
+        document.querySelector(".winbox").style.display = "flex"
     }
 }
 document.querySelector(".item4").onclick = function(){
@@ -44,7 +50,9 @@ document.querySelector(".item4").onclick = function(){
     document.querySelector(".i4").style.textDecoration = "line-through"
 
     if (score == 4){
-    alert('Ты победил!');
+        alert('Ты победил!');
+        document.querySelector(".parent").style.display = "none"
+        document.querySelector(".winbox").style.display = "flex"
     }
 }
 

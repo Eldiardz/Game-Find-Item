@@ -72,3 +72,11 @@
     font-size: 35px;
     color: red;
 }
+.winbox{
+    margin: auto;
+    display: none;
+    width: 25rem;
+    height: 25rem;
+    background-size: 100% 100%;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/7152/7152191.png);
+}
